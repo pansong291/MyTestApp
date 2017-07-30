@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#74AA97"
+	android:gravity="center"
+	android:padding="20dp">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/new1_ll"
+		android:background="#AAAAAA"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="LoadingDialog"
+		android:onClick="loadingDialog"
+		android:layout_width="wrap_content"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:onClick="onCrashClick"
+		android:text="Click to Test Crash"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Setting"
+		android:onClick="goToSetting"
+		android:layout_width="wrap_content"/>
+
+</LinearLayout>
+

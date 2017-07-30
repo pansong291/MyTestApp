@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#D4D4D4"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/main1LinearLayout1"
+		android:visibility="gone">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:clickable="true"
+			android:onClick="checkbox">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="自动检查更新"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.0"
+				android:layout_gravity="center_vertical"
+				android:gravity="center"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:clickable="false"
+				android:id="@+id/main1CheckBox1"/>
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="CheckNewNow"
+				android:layout_width="match_parent"
+				android:onClick="check"
+				android:id="@+id/checkbtn"
+				android:layout_centerHorizontal="true"/>
+
+			<ProgressBar
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_alignParentRight="true"
+				android:visibility="invisible"
+				android:id="@+id/main1ProgressBar1"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

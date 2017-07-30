@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <PreferenceScreen
+    android:key="set_main"
+    android:title="设置"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+      android:title="其它">
+
+      <Preference
+        android:key="set_help"
+        android:title="帮助"/>
+
+      <CheckBoxPreference
+        android:key="set_auto_check_new"
+        android:title="自动检测更新"
+        android:defaultValue="true"/>
+
+      <Preference
+        android:key="set_check_new_now"
+        android:title="版本"
+        android:summary="立即检查更新"/>
+
+      <Preference
+        android:key="set_about"
+        android:title="关于"
+        android:summary="pansong291PS"/>
+
+    </PreferenceCategory>
+    
+  </PreferenceScreen>
+<!--
+android:key  选项的名称或键,类似id
+android:title  选项的标题
+android:summary  选项的简短摘要
+android:entries  可将选项设置成列表项的文本
+android:entryValues  定义每个列表项的值。注意：每个列表项有一些文本和一个值。文本由entries定义，值由entryValues定义。
+android:dialogTitle  对话框的标题，在视图显示为模态对话框时使用
+android:defaultValue  项列表中选项的默认值
+-->
