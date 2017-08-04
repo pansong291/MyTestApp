@@ -49,7 +49,7 @@ public class NewActivity2 extends PreferenceActivity implements OnPreferenceClic
    case "set_help":
     new AlertDialog.Builder(this)
      .setTitle("帮助")
-     .setMessage("帮助")
+     .setMessage("帮助内容")
      .setPositiveButton("确定",null)
      .show();
     break;
@@ -71,7 +71,7 @@ public class NewActivity2 extends PreferenceActivity implements OnPreferenceClic
      }
     }else if(mUpdate==null)
     {
-     mUpdate=new MyUpdate(this,"R9tc7zC",new MyUpdateDialogListener(this));
+     mUpdate=new MyUpdate(this,"R9tcy9Y",new MyUpdateDialogListener(this));
      mUpdate.checkNow(true,p1);
     }
     break;

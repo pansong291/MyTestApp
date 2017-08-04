@@ -33,7 +33,7 @@ public class NewActivity1 extends Zactivity
   new MyProclamation(this,"R9tcy9Y",newll);
   lis=new MyUpdateDialogListener(this);
 //  upd=new UpDataO("http://t.cn/RPTVoak",lis);
-  upd=new MyUpdate(this,"R9tc7zC",lis);
+  upd=new MyUpdate(this,"R9tcy9Y",lis);
 	//false不Toast提示，null指没有进度条
   if(checkQM()&&sp.getBoolean("set_auto_check_new",true))
   //upd.checkNow(this,false,null);
